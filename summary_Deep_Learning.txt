@@ -1,0 +1,7 @@
+Deep Learning uses a Neural Network to imitate animal intelligence.
+There are three types of layers of neurons in a neural network: the Input Layer, the Hidden Layer(s), and the Output Layer.
+Connections between neurons are associated with a weight, dictating the importance of the input value.
+Neurons apply an Activation Function on the data to “standardize” the output coming out of the neuron.
+To train a Neural Network, you need a large data set.
+Iterating through the data set and comparing the outputs will produce a Cost Function, indicating how much the AI is off from the real outputs.
+After every iteration through the data set, the weights between neurons are adjusted using Gradient Descent to reduce the cost function.
