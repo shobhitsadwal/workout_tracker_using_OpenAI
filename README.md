@@ -4,7 +4,7 @@ tracking workouts by sending the text over information in the GPT-3 Deep Learnin
 ![open_ai](https://openai.com/content/images/2021/08/openai-cover.png)
 ![gpt-3](https://crowdbotics.ghost.io/content/images/2020/07/GPT-3-2.jpg)
 
-# Aims and objective of this project 
+# Aim and objective of this project 
 the primary aim of this project is to track down the calories burned and the food intake required when we input the information and to recieve the exact information from a deep-learning model which is 
 also called as **GPT-3**.
 
@@ -31,13 +31,12 @@ also called as **GPT-3**.
 The initial concept of making a workout tracaker was to record the workout and add the entry to the database . For obvious reasons many people do not know how to enter the values in the database and make the correct
 prediction of the calories burnt during the workout . 
 
-This project is solely based on the concept of running the application and jsut entering the details like the duration and the type of the workout the user has done , it automatically detects the calories burnt and the food options
+This project is solely based on the concept of running the application and just entering the details like the duration and the type of the workout the user has done , it automatically detects the calories burnt and the food options
 to eat depending on the wokout and the best part is to simply write the input in **Plain Human Manner**
 ```python
 your_workout=input("today i worked out and that included umm, cycling ,some running , i dont know the time but it was like something for 60 to 70 minutes.")
 ```
-you can see how we have managed to write a simple statement without in human langauage without emphasizing on the workouts we did, the surprising part come out to be that the Open-Ai's GPT-3 converts this langauage and forms a table
-that contains the number of the workout the exact timing that the workout should be accomplished by taking the users mean time and the universal mean time .
+you can see how we have managed to write a simple statement  in human langauage without emphasizing on the workouts we did, the surprising part is that, the Open-Ai's GPT-3 converts this langauage and forms a table that contains the number of the workouts, the exact timing that the workout should be accomplished by taking the users mean time and the universal mean time .
 
 here is an example 
 
@@ -118,8 +117,7 @@ the base url for track.api and nutritionix is https://www.nutritionix.com/busine
 
 
 ### creation of sheety to work with the google sheets
-we are storing the information in the google sheets because the information is directly reached to the google sheets and also there are many API's to directly communicate with google sheets online. One such api poster and getter to googgle sheets is sheety . Sheety provides continious integration with 
-our google shhets for storing the information , to read more about sheety refer to 
+we are storing the information in the google sheets because the information is directly reached to the google sheets and also there are many API's to directly communicate with google sheets online. One such api poster and getter to googgle sheets is sheety . Sheety provides continious integration with our google sheets for storing the information , to read more about sheety refer to 
 - https://sheety.co/
 - https://sheety.co/docs
 
@@ -149,8 +147,6 @@ We’ve designed the API to be both simple for anyone to use but also flexible e
 
 The field’s pace of progress means that there are frequently surprising new applications of AI, both positive and negative. We will terminate API access for obviously harmful use-cases, such as harassment, spam, radicalization, or astroturfing. But we also know we can’t anticipate all of the possible consequences of this technology, so we are launching today in a private beta rather than general availability, building tools to help users better control the content our API returns, and researching safety-relevant aspects of language technology (such as analyzing, mitigating, and intervening on harmful bias). We’ll share what we learn so that our users and the broader community can build more human-positive AI systems.
 In addition to being a revenue source to help us cover costs in pursuit of our mission, the API has pushed us to sharpen our focus on general-purpose AI technology—advancing the technology, making it usable, and considering its impacts in the real world. We hope that the API will greatly lower the barrier to producing beneficial AI-powered products, resulting in tools and services that are hard to imagine today.
-
-Interested in exploring the API? Join companies like Algolia, Quizlet, and Reddit, and researchers at institutions like the Middlebury Institute in our private beta.
 
 
 
